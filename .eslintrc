@@ -13,5 +13,5 @@
   "rules": {
     // "prettier/prettier": true,
   },
-  "ignorePatterns": ["tests","out", "dist", "**/*.d.ts","tscnfig.json"]
+  "ignorePatterns": ["tests","out", "dist", "**/*.d.ts","tsconfig.json"]
 }
