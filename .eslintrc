@@ -12,7 +12,14 @@
   "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "rules": {
     "prettier/prettier": "error",
-    "no-unused-vars":"warn"
+    "no-unused-vars": "warn"
   },
-  "ignorePatterns": ["tests","out", "dist", "**/*.d.ts","tsconfig.json"]
+  "ignorePatterns": [
+    "tests",
+    "out",
+    "lib",
+    "dist",
+    "**/*.d.ts",
+    "tsconfig.json"
+  ]
 }
