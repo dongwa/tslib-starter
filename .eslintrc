@@ -12,7 +12,8 @@
   "extends": ["eslint:recommended", "plugin:prettier/recommended"],
   "rules": {
     "prettier/prettier": "error",
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "no-async-promise-executor": "off"
   },
   "ignorePatterns": [
     "tests",
