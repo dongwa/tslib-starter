@@ -1,7 +1,10 @@
 # ts-lib-starter
-include ts + eslint + prettier + jest
+
+include ts + eslint + prettier + vitest
+
 # useage
-`pnpm i` 
+
+`pnpm i`
 
 `pnpm lint`
 
